@@ -18,8 +18,8 @@
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
 $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 
-# Inherit from avicii device
-$(call inherit-product, device/oneplus/avicii/device.mk)
+# Inherit from billie device
+$(call inherit-product, device/oneplus/billie/device.mk)
 
 # Inherit some common PixelExperience stuff.
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
@@ -29,11 +29,11 @@ TARGET_GAPPS_ARCH := arm64
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_USES_AOSP_RECOVERY := true
 
-PRODUCT_NAME := aosp_avicii
-PRODUCT_DEVICE := avicii
+PRODUCT_NAME := aosp_billie
+PRODUCT_DEVICE := billie
 PRODUCT_MANUFACTURER := OnePlus
 PRODUCT_BRAND := OnePlus
-PRODUCT_MODEL := ONEPLUS Nord
+PRODUCT_MODEL := Nord N10 5G
 
 PRODUCT_GMS_CLIENTID_BASE := android-oneplus
 
