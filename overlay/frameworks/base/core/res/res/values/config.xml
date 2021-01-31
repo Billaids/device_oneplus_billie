@@ -293,19 +293,24 @@
     <!-- Vibrator pattern for feedback about a long screen/key press -->
     <integer-array name="config_longPressVibePattern">
         <item>0</item>
-        <item>10</item>
+        <item>50</item>
     </integer-array>
 
     <!-- Vibrator pattern for feedback about touching a virtual key -->
     <integer-array name="config_virtualKeyVibePattern">
         <item>0</item>
-        <item>10</item>
+        <item>50</item>
     </integer-array>
 
     <!-- Vibrator pattern for a very short but reliable vibration for soft keyboard tap -->
     <integer-array name="config_keyboardTapVibePattern">
-        <item>10</item>
+        <item>50</item>
     </integer-array>
+
+    <!-- Default list of files pinned by the Pinner Service -->
+    <string-array name="config_defaultPinnerServiceFiles">
+        <item>vendor/lib64/libgsl.so</item>
+    </string-array>
 
     <!-- Default list of files pinned by the Pinner Service -->
     <string-array translatable="false" name="config_defaultPinnerServiceFiles">
@@ -689,7 +694,7 @@
 
     <!-- Minimum screen brightness setting allowed by the power manager.
          The user is forbidden from setting the brightness below this level. -->
-    <integer name="config_screenBrightnessSettingMinimum">2</integer>
+    <integer name="config_screenBrightnessSettingMinimum">20</integer>
 
     <!-- Stability requirements in milliseconds for accepting a new brightness level.  This is used
          for debouncing the light sensor.  Different constants are used to debounce the light sensor
@@ -707,22 +712,6 @@
          For this time after the screen turns on, the Power Manager
          will not debounce light sensor readings -->
     <integer name="config_lightSensorWarmupTime">200</integer>
-
-    <!-- The bounding path of the cutout region of the main built-in display.
-         Must either be empty if there is no cutout region, or a string that is parsable by
-         {@link android.util.PathParser}.
-         The path is assumed to be specified in display coordinates with pixel units and in
-         the display's native orientation, with the origin of the coordinate system at the
-         center top of the display.
-         To facilitate writing device-independent emulation overlays, the marker `@dp` can be
-         appended after the path string to interpret coordinates in dp instead of px units.
-         Note that a physical cutout should be configured in pixels for the best results.
-         -->
-    <string name="config_mainBuiltInDisplayCutout">M-436.5,33L-319.5,33A38.5,38.5 0,0 1,-281 71.5L-281,71.5A38.5,38.5 0,0 1,-319.5 110L-436.5,110A38.5,38.5 0,0 1,-475 71.5L-475,71.5A38.5,38.5 0,0 1,-436.5 33z M -475,0 L -283,0 Z M -540,0 L -540,113 Z</string>
-
-    <!-- Height of the status bar -->
-    <dimen name="status_bar_height_portrait">125px</dimen>
-    <dimen name="status_bar_height_landscape">130px</dimen>
 
     <!-- The list of vendor package signatures that should also be considered
     platform signatures, specifically for use on devices with a vendor partition. -->
