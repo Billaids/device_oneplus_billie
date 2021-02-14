@@ -20,7 +20,7 @@
        3 = Right
        4 = FOD
     -->
-    <integer name="config_fingerprintSensorLocation">4</integer>
+    <integer name="config_fingerprintSensorLocation">0</integer>
 
     <!-- Device specific doze package -->
     <string name="config_customDozePackage">org.lineageos.settings.doze/org.lineageos.settings.doze.DozeSettingsActivity</string>
