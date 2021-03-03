@@ -3,6 +3,10 @@
 -lib64/libantradio.so
 product/lib/com.qualcomm.qti.ant@1.0.so
 product/lib64/com.qualcomm.qti.ant@1.0.so
+vendor/lib/libjnihelper.so
+vendor/lib64/libjnihelper.so
+vendor/lib/libmetricslogger.so
+vendor/lib64/libmetricslogger.so
 
 # Bluetooth (aptX) - from crosshatch - QP1A.190711.020
 product/lib64/libaptX_encoder.so|df1c89d7af1bb35808d5fe3496b04ba066c10cbc
@@ -179,7 +183,6 @@ product/etc/permissions/qcrilhook.xml|ceb890ab3c1645aa0d0044abab1ba58c4097a991
 product/etc/permissions/telephonyservice.xml|a39eefcaf85fb8da60044fdbbcfddd95deb031c8
 -product/framework/embmslibrary.jar|00eb5b4144f001423032a88cc1d227b3655db88b
 -product/framework/qcrilhook.jar|23768fda90519d799e682fd058ec85b7b5cd6f89
--product/framework/qti-telephony-common.jar|b4d187700f279cdbd40e74b4c3be4504f10d8b29
 -product/framework/QtiTelephonyServicelibrary.jar|ea30b05eaad3ebee157421b3f31bf8585566b4cd
 -product/priv-app/qcrilmsgtunnel/qcrilmsgtunnel.apk|71d083671c3ea4cd5e287a63fb254bb0ab60ed20
 
