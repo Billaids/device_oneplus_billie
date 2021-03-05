@@ -1963,7 +1963,7 @@ vendor/lib64/vendor.qti.hardware.wigig.netperftuner@1.0.so
 vendor/lib64/vendor.qti.hardware.wigig.supptunnel@1.0.so
 
 # Misc
--vendor/app/CACertService/CACertService.apk
+-vendor/app/CACertService/CACertService.apk|dd2d60d026cf32b414c197940a2c100124013236
 -vendor/app/com.qualcomm.qti.gpudrivers.sm7250.api29/com.qualcomm.qti.gpudrivers.sm7250.api29.apk
 -vendor/app/QwesAndroidService/QwesAndroidService.apk
 -vendor/app/TrustZoneAccessService/TrustZoneAccessService.apk
@@ -2114,7 +2114,7 @@ vendor/lib/libadreno_app_profiles.so
 vendor/lib/libalCFR.so
 vendor/lib/libbatterylistener.so
 vendor/lib/libbitmlengine.so
-vendor/lib/libcacertclient.so
+vendor/lib/libcacertclient.so|134b7e3b904f27c45eff92ead9b2b49b9e13a00d
 vendor/lib/libchilog.so
 vendor/lib/libcirrusspkrprot.so
 vendor/lib/libcomprcapture.so
@@ -2133,7 +2133,7 @@ vendor/lib/libhdmipassthru.so
 vendor/lib/libhfp.so
 vendor/lib/libhta_hexagon_runtime.so
 vendor/lib/libipebpsstriping.so
-vendor/lib/libjnihelper.so
+vendor/lib/libjnihelper.so|e1bb666bf2a987df4047c0aa72e8cb52991cb0dc
 vendor/lib/libmmparser_lite_proprietary.so
 vendor/lib/libmmrtpdecoder_proprietary.so
 vendor/lib/libmmrtpencoder_proprietary.so
@@ -2226,7 +2226,7 @@ vendor/lib64/libapsjpeg.so
 vendor/lib64/libaps_frame_registration.so
 vendor/lib64/libbatterylistener.so
 vendor/lib64/libbitmlengine.so
-vendor/lib64/libcacertclient.so
+vendor/lib64/libcacertclient.so|ec7452664c12bc32114013920a90b9cb93db0832
 vendor/lib64/libchilog.so
 vendor/lib64/libcirrusspkrprot.so
 vendor/lib64/libcomprcapture.so
@@ -2249,7 +2249,7 @@ vendor/lib64/libhistogram.so
 vendor/lib64/libhta.so
 vendor/lib64/libhta_hexagon_runtime.so
 vendor/lib64/libipebpsstriping.so
-vendor/lib64/libjnihelper.so
+vendor/lib64/libjnihelper.so|584e2abf7afe8316c35b04540a86fa32c8dfc7da
 vendor/lib64/liblmutils-ns.so
 vendor/lib64/libloadalgo_stub.so
 vendor/lib64/libmemperfd.so
