@@ -1,0 +1,4 @@
+type qmipriod, domain;
+
+allow qmipriod qmipriod_data_file:dir search;
+allow qmipriod qmipriod_data_file:file rw_file_perms;

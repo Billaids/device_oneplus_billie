@@ -1,0 +1,2 @@
+allow gmscore_app exported_camera_prop:file read;
+allow gmscore_app hal_qspmhal_hwservice:hwservice_manager find;

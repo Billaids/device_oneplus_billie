@@ -1,0 +1,5 @@
+allow vendor_qtelephony hal_atfwd_hwservice:hwservice_manager find;
+allow vendor_qtelephony ims_prop:file read;
+
+get_prop(vendor_qtelephony, vendor_radio_prop)
+get_prop(vendor_qtelephony, ims_prop)
