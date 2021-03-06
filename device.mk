@@ -253,3 +253,14 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 # Wallpapers
 PRODUCT_PACKAGES += \
     PixelLiveWallpaperPrebuilt
+
+
+# PA common QTI components configuration
+TARGET_BOARD_PLATFORM := lito
+
+TARGET_COMMON_QTI_COMPONENTS := \
+    telephony \
+    wlan
+    
+
+-include device/qcom/common/common.mk

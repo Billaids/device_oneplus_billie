@@ -82,9 +82,6 @@ BOARD_ANT_WIRELESS_DEVICE := "qualcomm-hidl"
 # Audio
 USE_CUSTOM_AUDIO_POLICY := 1
 
-# Bluetooth
-TARGET_FWK_SUPPORTS_FULL_VALUEADDS := true
-
 # Camera
 TARGET_USES_QTI_CAMERA_DEVICE := true
 
